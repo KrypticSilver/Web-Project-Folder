@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  height: 50px;
+  width: 100vw;
+  background-color: #1b263b;
+  display: grid;
+}
+
+h1 {
+  justify-self: center;
+  align-self: center;
+  color: white;
+  font-family: 'Tilt Prism';
+}
