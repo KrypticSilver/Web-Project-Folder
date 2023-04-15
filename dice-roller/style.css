@@ -11,6 +11,7 @@
   display: grid;
   background-color: #343541;
   border-bottom: 1px solid #ECECF1;
+  font-size: 30px;
 }
 
 h1 {
@@ -25,20 +26,46 @@ h1 {
   display: grid;
 }
 
-#dice-section {
+#rolling-section {
+  display: grid;
+  
   align-self: center;
   justify-self: center;
-  display: grid;
   align-items: center;
   justify-items: center;
+  
+  font-size: 27px;
+
+  border: 2px solid #ECECF1;
+  border-radius: 10px;
+}
+
+#dice-section {
+  grid-template-columns: 1fr 1fr;
+  
+  font-size: 27px;
+  margin: 0px 10px 0px 10px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+
+  border: 2px solid #ECECF1;
+  border-radius: 10px;
+}
+
+#dice-2 {
+  
 }
 
 button {
   color: #383838;
   background-color: #ECECF1;
-  width: 60px;
-  height: 30px;
+  width: 80px;
+  height: 40px;
   border-radius: 5px;
+  font-size: 26px;
 }
 
 button:hover {
