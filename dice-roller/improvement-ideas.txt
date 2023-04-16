@@ -1,0 +1,2 @@
+- Could make a calculator for the total of the two dice
+- Could make a sound after the dice are rolled
